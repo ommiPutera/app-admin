@@ -44,7 +44,7 @@ module.exports = {
       name: "app_admin",
       filename: "remoteEntry.js",
       remotes: {
-        host: "host@http://localhost:7000/remoteEntry.js",
+        host: "host@https://app-admin.vercel.app/remoteEntry.js",
       },
       exposes: {},
       shared: {
